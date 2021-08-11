@@ -83,7 +83,8 @@ class BackyardFlyer(Drone):
         
         1. Return waypoints to fly a box
         """
-        pass
+        local_waypoints = [[10.0, 0.0, 3.0], [10.0, 10.0, 3.0], [0.0, 10.0, 3.0], [0.0, 0.0, 3.0]]
+        return local_waypoints
 
     def arming_transition(self):
         """TODO: Fill out this method
